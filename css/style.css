@@ -24,3 +24,30 @@ a{
 ul,li{
   list-style: none;
 }
+header{
+	width: 1340px;
+	margin: 0 auto;
+	background: rgba(255, 144, 14, 0.1);
+}
+/* navber start */
+.navber{
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0 105px;
+}
+.navber h3{
+font-weight: 700;
+font-size: 45px;
+color: var(--dark-01);
+}
+.list-item{
+	display: flex;
+	gap: 30px;
+}
+.list-item li a{
+font-weight: 500;
+font-size: 18px;
+line-height: 144%;
+color: var(--dark-02);
+}
+/* navber end */
