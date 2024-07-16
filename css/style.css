@@ -9,6 +9,21 @@
 	--dark-07: #f3f3f3;
 	--white-color: #fff;
 }
+button{
+	text-align: center;
+}
+.btn{
+	padding: 21px 25px;
+font-weight: 600;
+font-size: 20px;
+color: var(--white-color);
+border: none;
+border-radius: 8px;
+background-color:#FF900E;
+align-items: center;
+
+
+}
 body{
   font-family: "Work Sans", sans-serif;
 }
@@ -33,16 +48,17 @@ header{
 .navber{
 	display: flex;
 	justify-content: space-between;
-	margin: 60px 0 105px;
 }
 .navber h3{
 font-weight: 700;
 font-size: 45px;
 color: var(--dark-01);
+margin: 60px 0 105px;
 }
 .list-item{
 	display: flex;
 	gap: 30px;
+	margin: 60px 0 105px;
 }
 .list-item li a{
 font-weight: 500;
@@ -51,3 +67,25 @@ line-height: 144%;
 color: var(--dark-02);
 }
 /* navber end */
+/* banner section start */
+.banner-cnt{
+	text-align: center;
+}
+#banner .banner-cnt h1{
+font-weight: 700;
+font-size: 64px;
+color: var(--dark-01);
+}
+#banner .banner-cnt p{
+font-weight: 400;
+font-size: 16px;
+line-height: 162%;
+color: var(--dark-03);
+margin: 32px 0;
+}
+#banner img{
+	width: 100%;
+	margin: 50px 0 34px;
+}
+/* banner section end */
+
